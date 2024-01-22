@@ -15,7 +15,9 @@ function volume_sphere() {
     volumeInput.value = volume.toFixed(4);
   } else {
     // If the entered value is not a valid number, display an error message
-    alert('Please enter a valid positive number for the radius.');
+    const volumeInput = document.getElementById('volume');
+    volumeInput.value = 'NaN'; // Set the value to empty if the input is invalid
+	  //alert('Please enter a valid positive number for the radius.');
   }
 }
 //} 
