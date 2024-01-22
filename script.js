@@ -12,7 +12,7 @@ function volume_sphere() {
 
     // Display the calculated volume in the volume field
     const volumeInput = document.getElementById('volume');
-    volumeInput.value = volume.toFixed(2);
+    volumeInput.value = volume.toFixed(4);
   } else {
     // If the entered value is not a valid number, display an error message
     alert('Please enter a valid positive number for the radius.');
